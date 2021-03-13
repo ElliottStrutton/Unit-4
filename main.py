@@ -1,6 +1,5 @@
 # Torment Tracker by Elliott Strutton
-from os import system, name
-from time import sleep
+
 
 ver = "1.1.0"
 
