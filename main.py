@@ -1,4 +1,5 @@
 # Torment Tracker by Elliott Strutton
+from new_participants import main as new_participants
 
 
 ver = "1.1.0"
@@ -42,9 +43,6 @@ def main():
         # Help Message
         print("\n \n \nPlease enter a number that corresponds with the menu options")
         main()
-
-
-
 
 
 print("Tournament Tracker")

@@ -25,3 +25,4 @@ def main():
     else:
         # Help Message
         print("\n \n \nPlease enter a number that corresponds with the menu options")
+    main()
