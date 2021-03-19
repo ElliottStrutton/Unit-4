@@ -2,7 +2,7 @@
 from colorama import Fore, Style
 from time import sleep
 
-ver = "1.1.0"
+ver = "1.2.0"
 
 teamOne = {
     "name": "no_name",
