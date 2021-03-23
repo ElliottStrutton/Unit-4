@@ -65,9 +65,9 @@ def new_participants():
     print("""
 **************************************************
 1) Edit team names
-2) Add participants to team
-3) Remove participants from team
-4) Add solo participants
+2) Add participants (Solo and unallocated) 
+3) Add participants to team
+4) Remove participants from team
 5) Remove solo participants
 6) Back to main menu
 **************************************************    
@@ -76,7 +76,7 @@ def new_participants():
     if selection == "1":
         teamEdit()
     elif selection == "2":
-        print("2")
+        addParticipants()
     elif selection == "3":
         print("3")
     elif selection == "4":
@@ -139,7 +139,20 @@ def teamEdit():
         teamEdit()
 
 
+def addParticipants():
+    input1 = input("""
+**************************************************
+Enter participants name.
+    
+>""")
+
+    solos.append(input1)
+
+    print(f"\nparticipant{Fore.RED} {input1} {Style.RESET_ALL}has been added")
+    sleep(1)
+
+
 print("Tournament Tracker")
 print("Version :", ver)
-sleep(2)
+sleep(3)
 main()
